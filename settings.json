@@ -1,0 +1,123 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+//
+//
+// themes:
+//  Like: "summerfruit-dark",
+{
+    "auto_update_extensions": {
+        "catppuccin": false
+    },
+    "theme": "The Dark Side",
+    "buffer_font_family": "Fira Code",
+    "buffer_font_size": 16,
+    "hard_tabs": false,
+    "language_overrides": {
+        "Go": {
+            "enable_language_server": true,
+            "format_on_save": "language_server",
+            "hard_tabs": true,
+            "preferred_line_length": 250,
+            "soft_wrap": "preferred_line_length",
+            "tab_size": 4
+        },
+        "JSON": {
+            "enable_language_server": true,
+            "format_on_save": "language_server",
+            "hard_tabs": false,
+            "preferred_line_length": 80,
+            "soft_wrap": "preferred_line_length",
+            "tab_size": 4
+        },
+        "JavaScript": {
+            "enable_language_server": true,
+            "format_on_save": "language_server",
+            "hard_tabs": true,
+            "preferred_line_length": 250,
+            "soft_wrap": "preferred_line_length",
+            "tab_size": 4
+        },
+        "Markdown": {
+            "enable_language_server": true,
+            "format_on_save": "language_server",
+            "hard_tabs": false,
+            "preferred_line_length": 80,
+            "soft_wrap": "preferred_line_length",
+            "tab_size": 4
+        },
+        "TOML": {
+            "enable_language_server": true,
+            "format_on_save": "language_server",
+            "hard_tabs": false,
+            "preferred_line_length": 80,
+            "soft_wrap": "preferred_line_length",
+            "tab_size": 4
+        },
+        "MAKE": {
+            "hard_tabs": true
+        },
+        "MAKEFILE": {
+            "hard_tabs": true
+        },
+        "makefile": {
+            "hard_tabs": true
+        },
+        "Plain Text": {
+            "hard_tabs": true
+        },
+    },
+    "preferred_line_length": 150,
+    "soft_wrap": "editor_width",
+    "tab_size": 4,
+    "vim_mode": false,
+    "autosave": "off",
+    "enable_language_server": true,
+    "experiments": {},
+    "format_on_save": "off",
+    "formatter": "language_server",
+    "hover_popover_enabled": true,
+    "lsp": {},
+    "show_completions_on_input": true,
+    "projects_online_by_default": true,
+    "active_pane_magnification": 1.2,
+    "terminal": {
+        "alternate_scroll": "off",
+        "blinking": "terminal_controlled",
+        "env": {},
+        "font_size": 12,
+        "font_family": "FiraCode Nerd Font Mono",
+        "shell": "system",
+        "working_directory": "current_project_directory"
+    }
+}
+//
+// NOTE:
+//  terminal, experiments, lsp, language_overrides are all objects that can be null  ( '{}'
+//
+// DEFAULTS (quick reference):
+//  "active_pane_magnification"     1.0
+//	"autosave"						"off"
+// 	"buffer_font_family"			"zed-mono"
+// 	"buffer_font_size"				16
+// 	"enable_language_server"		true
+// 	"experiments"					{}
+// 	"format_on_save"				"on"
+//  "formatter"                     "language_server"
+// 	"hard_tabs"						false
+// 	"hover_popover_enabled"			true
+// 	"language_overrides"			null
+// 	"lsp"							null
+// 	"preferred_line_length"			80
+// 	"projects_online_by_default"	true
+// 	"show_completions_on_input"		true
+// 	"soft_wrap"						"editor_width"
+// 	"tab_size"						4
+// 	"terminal"						null
+// 	"theme"							"one-dark"
+// 	"vim_mode"						false
